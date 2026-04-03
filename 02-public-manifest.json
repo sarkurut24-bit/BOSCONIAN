@@ -1,0 +1,28 @@
+{
+  "name": "BOSCONIANS - School Community App",
+  "short_name": "BOSCONIANS",
+  "description": "Connect with your school friends - Don Bosco Higher Secondary School, Diphu",
+  "start_url": "/BOSCONIAN/",
+  "scope": "/BOSCONIAN/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#DC143C",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "school-banner.jpg",
+      "sizes": "1400x800",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["social", "education"],
+  "screenshots": [
+    {
+      "src": "school-banner.jpg",
+      "sizes": "1400x800",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ]
+}

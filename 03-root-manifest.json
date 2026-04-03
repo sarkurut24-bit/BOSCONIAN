@@ -1,0 +1,62 @@
+{
+  "name": "BOSCONIANS - School Community App",
+  "short_name": "BOSCONIANS",
+  "description": "Connect with your school friends - Don Bosco Higher Secondary School, Diphu",
+  "start_url": "/BOSCONIAN/",
+  "scope": "/BOSCONIAN/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#DC143C",
+  "background_color": "#FFFFFF",
+  "icons": [
+    {
+      "src": "public/logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "public/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "public/logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "public/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["social", "education", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "public/school-banner.jpg",
+      "sizes": "1400x800",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Friend",
+      "short_name": "Add Friend",
+      "description": "Quickly add a new friend",
+      "url": "/?tab=friends",
+      "icons": []
+    },
+    {
+      "name": "Messages",
+      "short_name": "Messages",
+      "description": "View your messages",
+      "url": "/?tab=messages",
+      "icons": []
+    }
+  ]
+}
